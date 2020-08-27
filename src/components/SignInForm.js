@@ -1,7 +1,7 @@
 import React from "react";
-import { reduxForm, Field } from "redux-form";
+import { Field } from "redux-form";
 
-const SignInForm = (props) => {
+let SignInForm = (props) => {
   return (
     <form className="form">
       <div className="field">
